@@ -10,6 +10,14 @@ else if(login == "logistica" && senha == "log2022"){
     alert('Sucesso');
     location.href = "log.html";
 }
+else if(login == "matriz" && senha == "Cdc@mat23"){
+    alert('Sucesso');
+    location.href = "Matriz/inicio.html";
+}
+else if(login == "filial" && senha == "Cdc@fil23"){
+    alert('Sucesso');
+    location.href = "Filial/inicio.html";
+}
 else {
   alert('Usuario ou senha incorretos');
 }

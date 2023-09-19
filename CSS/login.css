@@ -54,7 +54,7 @@ h2, .user , .password, button {
 
 .user input, .password input {
     cursor: pointer;
-    border: 2px solid #1e1e1e;
+    border: 1px solid #1e1e1e;
     border-radius: 16px;
     width: 200px;
     height: 35px;

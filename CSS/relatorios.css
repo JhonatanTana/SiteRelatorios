@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     cursor: default;
+    color: #284c7c;
 }
 
 .container {
@@ -32,8 +33,17 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: #ffff;
-    background: linear-gradient( #b13336, #E03639 );
+    background: linear-gradient(#34629D, #118DFF);
+    /*background: linear-gradient( #b13336, #E03639 );*/
     border-radius: 16px 16px 0px 0px;
     padding: 2%;
     margin-bottom: -0.5%;
+}
+
+.container a img {
+    margin: 1%;
+    width: 16px;
+    position: relative;
+    top: -7.5%;
+    left: 93%;
 }
