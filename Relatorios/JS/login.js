@@ -4,7 +4,7 @@ function logar(){
 
 if(login == "admin" && senha == "Cdc@123"){
     alert('Sucesso');
-    location.href = "inicio.html";
+    location.href = "inicio.php";
 }
 else if(login == "logistica" && senha == "log2022"){
     alert('Sucesso');
@@ -12,11 +12,11 @@ else if(login == "logistica" && senha == "log2022"){
 }
 else if(login == "matriz" && senha == "Cdc@mat23"){
     alert('Sucesso');
-    location.href = "Matriz/inicio.html";
+    location.href = "Matriz/inicio.php";
 }
 else if(login == "filial" && senha == "Cdc@fil23"){
     alert('Sucesso');
-    location.href = "Filial/inicio.html";
+    location.href = "Filial/inicio.php";
 }
 else {
   alert('Usuario ou senha incorretos');

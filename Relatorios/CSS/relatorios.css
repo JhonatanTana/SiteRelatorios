@@ -14,6 +14,7 @@ h1 {
 
 .container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -23,12 +24,16 @@ h1 {
     width: 50%;
 }
 
-.container iframe {
+.container2 div {
+    width: 100%;
+}
+
+.container2 iframe {
     height: 23em;
     width: 100%;
 }
 
-.container h3 {
+.container2 h3 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -40,10 +45,9 @@ h1 {
     margin-bottom: -0.5%;
 }
 
-.container a img {
-    margin: 1%;
+.container2 a img {
     width: 16px;
     position: relative;
     top: -7.5%;
-    left: 93%;
+    left: 4.5%;
 }

@@ -1,0 +1,1 @@
+alert("Seu usuário nao possui permissão para visualizar essa página");

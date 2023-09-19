@@ -5,6 +5,7 @@
     --azul: #34629D;
     --azulclaro: #2F89C7;
     --vinhoclaro: #E03639;
+    --vinhoclaro2: rgb(224,54,57,0.5);
     --vinho: #b13336;
     --vinhoescuro: #A33234;
 }
@@ -16,8 +17,22 @@
 }
 
 body {
-    height: 618px;
-    background: linear-gradient(#3A4680, #34629D);
+    height: 610px;
+    background: linear-gradient(90deg, var(--azulescuro), var(--azul), var(--azulclaro));
+}
+
+.text-danger {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+
+.text-danger p {
+    border: 3px solid red;
+    border-radius: 16px;
+    background-color: rgb(255,0,0,0.8);
+    font-weight: bold;
+    padding: 1%;
 }
 
 .container {

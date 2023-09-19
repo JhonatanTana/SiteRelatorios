@@ -8,20 +8,30 @@
     <link rel="icon" type="image/png" href="/src/Logo Casa.jpg"/>
     <link rel="stylesheet" href="css/login.css">
     <script src="JS/login.js"></script>
+    <script src="JS/usuario.js"></script>
     <title>Nova Era - Login</title>
 </head>
 <body>
+<?php if(isset($_GET['login']) && $_GET['login'] == 'error') { ?>
+
+    <div class="text-danger">
+        <p> Usuário ou senha inválido(s) </p>
+    </div>
+
+<?php } ?>
     <div class="container">
-        <form>
+        <form action="valida_login.php" method = 'post'>
             <img src="src/Logo Nova Era.png" alt="Logo">
             <h2>Login</h2>
             <div class="user">
-                <input type="text" name="" required="" placeholder="Usuário" id="login">
+                <input type="text" name="nome" required placeholder="Usuário" id="login" oninput="convertToLowerCase(this)">
             </div>
             <div class="password">
-                <input type="password" name="" required="" placeholder="Senha" id="senha">
+                <input type="password" name="senha" required placeholder="Senha" id="senha">
             </div>
-            <input type="submit" id="submit" value="Entrar" onclick="logar(); return false">
+
+            <input type="submit" id="submit" value="Entrar">
+
         </form>
     </div>
 </body>

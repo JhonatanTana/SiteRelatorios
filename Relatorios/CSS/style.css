@@ -32,13 +32,15 @@ header #Logo  {
     cursor: default;
 }
 
-.BemVindo button {
+.BemVindo a {
     position: absolute;
     top: 13px;
     right: 20px;
     cursor: pointer;
     background-color: transparent;
     border: 0;
+    text-decoration: none;
+    color: black;
 }
 
 .BemVindo p {
