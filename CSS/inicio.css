@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    border: 7px solid #1e1e1e;
+    border-radius: 32px;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.alert img, .alert p {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin: 5px;
+}
+
+.alert p {
+    color: #ff0000;
+    font-size: 32px;
+    font-weight: 600;
+    width: 210px;
+}
+
+.container span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
