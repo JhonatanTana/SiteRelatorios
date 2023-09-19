@@ -54,7 +54,7 @@ ul{
     justify-content: space-evenly;
     align-items: center;
     height: 40px;
-    background: linear-gradient(#3A4680, #34629D);
+    background: linear-gradient( #b13336, #E03639 );
     color: #ffff;
     font-weight: 600;
     list-style-type: none;
@@ -67,7 +67,8 @@ ul a {
 }
 
 ul a:hover {
-    color: #E03639;
+    color: #1e1e1e;
+    font-weight: bold;
 }
 
 nav li:hover {
@@ -75,21 +76,16 @@ nav li:hover {
     transform: scale(1.05);
 }
 
-.dropdown {
+footer {
+    margin-top: 10%;
     display: flex;
-    padding: 0px 15px;
-}
-
-.dropdown-menu.show {
     background: linear-gradient(#3A4680, #34629D);
-}
-
-.dropdown-item {
+    padding: 1%;
     color: #ffff;
-    font-weight: 600;
+    justify-content: center;
 }
 
-.dropdown-item:hover {
-    background-color: transparent;
-    color: #E03639;
+footer p {
+    margin: 0;
+    padding: 0;
 }
